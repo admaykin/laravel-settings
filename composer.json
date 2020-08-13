@@ -14,7 +14,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "SMATAR\\Settings\\": "src/"
+      "ADMAYKIN\\Settings\\": "src/"
     }
   },
   "minimum-stability": "stable",
@@ -24,10 +24,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "SMATAR\\Settings\\App\\Providers\\SettingServiceProvider"
+        "ADMAYKIN\\Settings\\App\\Providers\\SettingServiceProvider"
       ],
       "aliases": {
-        "Settings": "SMATAR\\Settings\\App\\Facades\\Setting"
+        "Settings": "ADMAYKIN\\Settings\\App\\Facades\\Setting"
       }
     }
   }
